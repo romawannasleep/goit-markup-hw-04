@@ -69,6 +69,12 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
+.logo:hover,
+.logo:focus {
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
 .text-raleway {
     color: #2e2f42;
 }
@@ -443,7 +449,7 @@ body {
     margin-right: 120px;
 
 }
-.footer .container {
+.container-foot {
     display: flex;
     flex-direction: column;
     width: 264px;
@@ -480,6 +486,7 @@ body {
     flex-direction: column;
     gap: 16px;
     align-items: baseline;
+
 }
 
 .social-p {
