@@ -114,7 +114,8 @@ body {
     
 }
 .header-nav:hover,
-.header-nav:focus {
+.header-nav:focus,
+.current {
     color: #404bbf;
     
 
