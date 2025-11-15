@@ -68,11 +68,11 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo:hover,
 .logo:focus {
     color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .text-raleway {
@@ -93,6 +93,7 @@ body {
     padding: 24px 0;
     display: block;
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav::after {
     content: "";
@@ -104,16 +105,17 @@ body {
     border-radius: 2px;
     background-color: #404BBF;
     opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav:hover::after,
 .header-nav:focus::after {
     opacity: 1;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .header-nav:hover,
 .header-nav:focus {
     color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 
 }
 .header-nav:active {
@@ -134,11 +136,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-component:hover,
 .address-component:focus {
     color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 /* #endregion header */
 /* #region section-1 */
@@ -359,12 +362,12 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link:hover,
 .link:focus {
     background-color: #404bbf;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 /* #endregion section-3 */
 /* #region section-4 */
@@ -412,11 +415,8 @@ body {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     transform: translateY(100%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-.portfolio-overlay:hover {
-
-    transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-li:hover {
@@ -540,10 +540,10 @@ margin-bottom: 16px;
     justify-content: center;
     align-items: center;
     align-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-footer:hover,
 .link-footer:focus {
     background-color: #31d0aa;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* #endregion footer */
