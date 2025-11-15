@@ -94,6 +94,7 @@ body {
     display: block;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .header-nav::after {
     content: "";
@@ -119,7 +120,7 @@ body {
 
 }
 .header-nav:active {
-    color: #404BBF;
+    color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address {
@@ -392,7 +393,7 @@ body {
    width: 360px;
    height: 420px;
    flex-shrink: 0;
-
+   transition:box shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .img-portfolio {
@@ -415,19 +416,19 @@ body {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     transform: translateY(100%);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-li:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
-    transition:box shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
     transform: translateY(0%);
 }
 .portfolio-li:hover .portfolio-overlay {
     transform: translateY(0);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 
 }
 .our-portfolio {
@@ -470,6 +471,7 @@ body {
     background-color: #2e2f42;
     padding: 100px 0;
     flex-direction: row;
+    padding: 156px;
 }
 .footer-div {
     display: flex;
@@ -480,8 +482,8 @@ body {
     flex-direction: column;
     width: 264px;
     height: 112px;
-    margin-left: 156px;
     margin-right: 120px;
+    
 }
 .footer-paragraph {
     line-height: 1.5;
